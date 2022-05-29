@@ -1,5 +1,13 @@
 :root {
-    --main-color: #FFFFFF;
-    --text-color: #404040;
-    --accent-color: #2468FF;
+  --main-color: #ffffff;
+  --text-color: #404040;
+  --accent-color: #2468ff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.4;
 }

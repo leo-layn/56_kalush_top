@@ -66,6 +66,7 @@ address {
 /* ----------HEADER------------- */
 .header .container{
 	display: flex;
+  align-items: center;
 }
 
 .header-free {
@@ -77,19 +78,28 @@ address {
 }
 
 .header-logo {
+  margin-right: 195px;
 }
 
 .header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-list {
+  display: flex;
 }
 
 .header-item {
 }
 
 .header-link {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 25px;  
 }
 
-.header-shop {
+.header-shop  {
+  display: block;
 }

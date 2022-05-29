@@ -43,6 +43,13 @@ address {
   font-style: normal;
 }
 
+.container {
+	width: 1440px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -57,23 +64,32 @@ address {
   overflow: hidden;
 }
 /* ----------HEADER------------- */
-.header {
+.header .container{
+	display: flex;
 }
+
 .header-free {
+	background-color: #161F49;
+	color: var(--main-color);
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
+
 .header-logo {
 }
-.link {
-}
+
 .header-nav {
 }
+
 .header-list {
 }
-.list {
-}
+
 .header-item {
 }
+
 .header-link {
 }
+
 .header-shop {
 }

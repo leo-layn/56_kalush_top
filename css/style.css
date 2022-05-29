@@ -39,7 +39,7 @@ img {
   color: inherit;
 }
 
-address{
+address {
   font-style: normal;
 }
 
@@ -55,4 +55,25 @@ address{
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+/* ----------HEADER------------- */
+.header {
+}
+.header-free {
+}
+.header-logo {
+}
+.link {
+}
+.header-nav {
+}
+.header-list {
+}
+.list {
+}
+.header-item {
+}
+.header-link {
+}
+.header-shop {
 }
